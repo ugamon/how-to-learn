@@ -35,6 +35,11 @@
 @import url('../styles/table/table__heading.css');
 @import url('../styles/table/table__text.css');
 
+/* feynman block */
+@import url('../styles/feynman/feynman.css');
+@import url('../styles/feynman/feynman__title.css');
+@import url('../styles/feynman/feynman__subtitle.css');
+@import url('../styles/feynman/feynman__link.css');
 
 
 .page {

@@ -49,6 +49,26 @@
 @import url('../styles/table/_theme/table__heading_theme_dark.css');
 @import url('../styles/table/_theme/table__text_theme_dark.css');
 @import url('../styles/table/_theme/table_theme_dark.css');
+@import url('../styles/table/_theme/table__cell_theme_dark.css');
+
+
+/* footer block */
+
+@import url('../styles/footer/footer.css');
+@import url('../styles/footer/_content/footer__column_content_copyright.css');
+@import url('../styles/footer/_content/footer__column_content_info.css');
+@import url('../styles/footer/_content/footer__column_content_social.css');
+@import url('../styles/footer/footer__column.css');
+@import url('../styles/footer/footer__author.css');
+@import url('../styles/footer/footer__column-heading.css');
+@import url('../styles/footer/footer__column-link.css');
+@import url('../styles/footer/footer__column-links.css');
+@import url('../styles/footer/footer__columns.css');
+@import url('../styles/footer/footer__social-icon.css');
+@import url('../styles/footer/_type/footer__social-icon_type_fb.css');
+@import url('../styles/footer/_type/footer__social-icon_type_insta.css');
+@import url('../styles/footer/_type/footer__social-icon_type_vk.css');
+
 
 .page {
   min-width: 1100px;
@@ -78,10 +98,3 @@
 
 
 
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-}

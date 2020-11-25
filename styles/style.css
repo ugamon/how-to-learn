@@ -1,4 +1,6 @@
 @import url('../styles/normalize.css');
+
+/* header block */
 @import url('./header/header.css');
 @import url('./header/header__title.css');
 @import url('./logo/logo.css');
@@ -8,6 +10,18 @@
 @import url('./header/header__link.css');
 @import url('./header/header__main-illustration.css');
 @import url('./header/header__square-pic.css');
+
+/* description block */
+@import url('./description/description.css');
+@import url('./two-columns/two-columns.css');
+@import url('./two-columns/two-columns__brief.css');
+@import url('./two-columns/two-columns__main-text.css');
+@import url('./two-columns/two-columns__paragraph.css');
+@import url('./two-columns/two-columns__span-accent.css');
+
+/* digits block */
+
+
 
 .page {
   min-width: 1100px;
@@ -23,56 +37,8 @@
 
 /*----------------- description section -------------------- */
 
-.description {
-  padding-top: 100px;
-  background-color: #ffffff;
-}
 
-.two-columns {
-  display: flex;
-  width: 80%;
-  justify-content: space-between;
-  margin: 0 auto;
 
-}
-
-.two-columns__brief {
-  width: 175px;
-}
-
-.two-columns__main-text {
-  width: 80%;
-  min-width:784px;
-  align-self: flex-end;
-}
-
-.two-columns__brief {
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-  color: #2f80ed;
-
-}
-
-.two-columns__paragraph {
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-}
-
-.two-columns__paragraph:first-of-type {
-  padding-bottom: 30px;
-}
-
-.two-columns__paragraph:last-of-type {
-  padding-top: 30px;
-}
-
-.two-columns__span-accent {
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: 600;
-}
 
 /*----------------- digits section -------------------- */
 

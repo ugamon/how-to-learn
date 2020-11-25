@@ -31,6 +31,7 @@
 @import url('../styles/section-subtitle/_theme/section-subtitle_theme_light.css');
 @import url('../styles/section-subtitle/_theme/section-subtitle_theme_dark.css');
 @import url('../styles/table/table.css');
+@import url('../styles/table/_theme/table_theme_light.css');
 @import url('../styles/table/table__cell.css');
 @import url('../styles/table/table__heading.css');
 @import url('../styles/table/table__text.css');
@@ -41,6 +42,13 @@
 @import url('../styles/feynman/feynman__subtitle.css');
 @import url('../styles/feynman/feynman__link.css');
 
+
+/* kaufman block */
+@import url('../styles/kaufman/kaufman.css');
+@import url('../styles/kaufman/kaufman__triangle.css');
+@import url('../styles/table/_theme/table__heading_theme_dark.css');
+@import url('../styles/table/_theme/table__text_theme_dark.css');
+@import url('../styles/table/_theme/table_theme_dark.css');
 
 .page {
   min-width: 1100px;

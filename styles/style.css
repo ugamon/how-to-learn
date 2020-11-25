@@ -1,3 +1,14 @@
+@import url('../styles/normalize.css');
+@import url('./header/header.css');
+@import url('./header/header__title.css');
+@import url('./logo/logo.css');
+@import url('./logo/_place/logo_place_header.css');
+@import url('./logo/_place/logo_place_footer.css');
+@import url('./header/header__subtitle.css');
+@import url('./header/header__link.css');
+@import url('./header/header__main-illustration.css');
+@import url('./header/header__square-pic.css');
+
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -6,21 +17,73 @@
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Helvetica Neue', 'Arial', sans-serif;
 }
 
-.header {
-  height: 100vh;
-  min-height: 600px;
-  max-height: 756px;
-  /* выше установили ограничения для секции */
+
+/*----------------- description section -------------------- */
+
+.description {
+  padding-top: 100px;
+  background-color: #ffffff;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
-  height: 568px;
-  width: 568px;
+.two-columns {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  margin: 0 auto;
+
 }
+
+.two-columns__brief {
+  width: 175px;
+}
+
+.two-columns__main-text {
+  width: 80%;
+  min-width:784px;
+  align-self: flex-end;
+}
+
+.two-columns__brief {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  color: #2f80ed;
+
+}
+
+.two-columns__paragraph {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.two-columns__paragraph:first-of-type {
+  padding-bottom: 30px;
+}
+
+.two-columns__paragraph:last-of-type {
+  padding-top: 30px;
+}
+
+.two-columns__span-accent {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+/*----------------- digits section -------------------- */
+
+
+
+
+/*----------------- digits section end -------------------- */
+
+
+
+
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {

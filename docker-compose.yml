@@ -1,7 +1,8 @@
 version: "3"
 services:
   web:
-    image: jurybulich22/docker-how_to_learn
+    build:
+      context: .
     volumes:
       - .:/usr/share/nginx/html
     ports:

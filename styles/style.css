@@ -67,6 +67,10 @@
   top: 64px;
   right: 0;
   background-color: #2f80ed;
+  animation-name: spin;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
 /* logo block */
@@ -423,3 +427,81 @@
 }
 
 
+/* ------------------- sprint two styles ----------------- */
+
+@keyframes spin {
+  from {
+      transform: rotate(0deg);
+  } to {
+      transform: rotate(360deg);
+  }
+}
+
+
+.techniques {
+  width: 80%;
+  padding-top: 100px;
+}
+
+.cards {
+  padding-left: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 220px);
+  list-style-type: none;
+  text-align: center;
+  column-gap: 100px;
+  justify-content: center;
+
+}
+
+.cards__item {
+
+}
+
+.cards__image {
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  margin-top: 60px;
+}
+
+.cards__title {
+  margin-top: 43px;
+  margin-bottom: 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.cards__description {
+  margin-top: 16px;
+  margin-bottom: 0;
+  line-height: 23px;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: center;
+
+}
+
+.video {
+  padding-top: 100px;
+}
+
+.video__iframes {
+  position: relative;
+  top: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 515px);
+  gap: 20px;
+  justify-content: center;
+}
+
+.video_iframe {
+  display: block;
+}
+
+
+.oakley{
+  padding-top: 160px;
+  background-color:  #f2f2f2;
+}

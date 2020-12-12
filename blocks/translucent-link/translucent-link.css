@@ -1,0 +1,8 @@
+.translucent-link {
+  transition-property: opacity;
+  transition-duration: 2s;
+ }
+
+ .translucent-link:hover {
+  opacity: .3;
+ }

@@ -67,10 +67,7 @@
   top: 64px;
   right: 0;
   background-color: #2f80ed;
-  animation-name: spin;
-  animation-duration: 20s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
+
 }
 
 /* logo block */
@@ -120,6 +117,8 @@
 }
 
 .two-columns__main-text {
+  display: flex;
+  flex-direction: column;
   width: 80%;
   min-width:784px;
   align-self: flex-end;
@@ -129,15 +128,13 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  margin:0;
+  margin-top: 0;
+  margin-bottom:30px;
 }
 
-.two-columns__paragraph:first-of-type {
-  padding-bottom: 30px;
-}
 
 .two-columns__paragraph:last-of-type {
-  padding-top: 30px;
+  margin-bottom: 0;
 }
 
 .two-columns__span-accent {
@@ -439,7 +436,6 @@
 
 
 .techniques {
-  width: 80%;
   padding-top: 100px;
 }
 
@@ -504,4 +500,113 @@
 .oakley{
   padding-top: 160px;
   background-color:  #f2f2f2;
+}
+
+.khan {
+  padding-top:105px;
+  background-color:  #f2f2f2;
+}
+
+.khan__container{
+  width: 80%;
+}
+
+.khan__author{
+ line-height: 42px;
+ font-size: 30px;
+ font-weight: normal;
+ margin-top: 0;
+ margin-bottom: 0;
+}
+
+.khan__title{
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.khan__quote{
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  width: 790px;
+  margin-top: 0;
+  margin-bottom: 36px;
+
+}
+
+.khan__quote-author{
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.khan__quote-author-subline{
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 68px;
+}
+
+.khan__book-container{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.khan__book-pic{
+  width: 620px;
+  height: 608px;
+  margin-right: 48px;
+  background-image: url('../images/khan-book.jpg');
+  background-size: cover;
+
+}
+
+.khan__buy-link{
+  align-self: flex-start;
+  text-decoration: none;
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+  color:#2f80ed
+}
+
+.resources{
+  padding-top:100px;
+}
+
+.resources__logo-zone{
+  display: flex;
+  width: 1100px;
+  margin-top: 80px;
+  margin-bottom: 217px;
+}
+
+.resources__logo {
+  margin: 0;
+  width:270px;
+  height: 38px;
+}
+
+
+.rotation {
+  animation-name: spin;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.link_with_opacity {
+ transition-property: opacity;
+ transition-duration: 2s;
+}
+
+.link_with_opacity:hover {
+ opacity: .3;
 }

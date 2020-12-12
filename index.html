@@ -15,10 +15,10 @@
       <h1 class="header__title">Научиться учиться</h1>
       <p class="header__subtitle">
           Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
-          <a class="header__link" href="#">Узнать &rarr;</a>
+          <a class="header__link link_with_opacity" href="#">Узнать &rarr;</a>
       </p>
       <img class="header__main-illustration" alt="Грустный мальчик" src="images/header-image.png">
-      <div class="header__square-pic"></div>
+      <div class="header__square-pic rotation"></div>
 
     </header>
     <main class="content">
@@ -48,7 +48,7 @@
 
         </article>
       </section>
-      <section class="techniques position-centered">
+      <section class="techniques">
         <h2 class="section-title position-centered">Техники обучения</h2>
         <h3 class="section-subtitle position-centered">Пять практик от Барбары Оакли</h3>
         <ul class="cards">
@@ -122,7 +122,11 @@
 
         </article>
       </section>
-
+      <section class="feynman">
+        <h2 class="feynman__title position-centered">Метод Фейнмана</h2>
+        <h3 class="feynman__subtitle">Выучить и не забыть.</h3>
+        <a href="#" class="feynman__link link_with_opacity">Подробнее &rarr;</a>
+      </section>
       <section class="digits">
         <h2 class="section-title position-centered">Цифры и факты</h2>
         <h3 class="section-subtitle position-centered">Про учёбу и мозг</h3>
@@ -199,13 +203,22 @@
           </li>
         </ul>
       </section>
+      <section class="khan">
+        <div class="khan__container position-centered">
+          <p class="khan__author">Салман Хан</p>
+          <h2 class="khan__title">Весь мир — школа</h2>
+          <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем,
+            кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.
+          </p>
+          <p class="khan__quote-author">Джордж Лукас</p>
+          <p class="khan__quote-subline">Кинорежиссер, продюсер</p>
+          <div class="khan__book-container">
+            <div class="khan__book-pic"></div>
+            <a href="#" class="khan__buy-link link_with_opacity">Купить книгу &rarr;</a>
+          </div>
 
-      <section class="feynman">
-        <h2 class="feynman__title position-centered">Метод Фейнмана</h2>
-        <h3 class="feynman__subtitle">Выучить и не забыть.</h3>
-        <a href="#" class="feynman__link">Подробнее &rarr;</a>
+        </div>
       </section>
-
       <section class="kaufman">
         <h2 class="section-title section-title_theme_dark position-centered">Принципы обучения</h2>
         <h3 class="section-subtitle section-subtitle_theme_dark position-centered">от Джоша Кауфмана</h3>
@@ -292,7 +305,17 @@
             </p>
           </li>
         </ul>
-        <div class="kaufman__triangle"></div>
+        <div class="kaufman__triangle rotation"></div>
+      </section>
+      <section class="resources">
+        <h2 class="section-title position-centered">Полезные ресурсы</h2>
+        <h3 class="section-subtitle position-centered">Больше материалов о техниках и лайфхаках обучения</h3>
+        <div class="resources__logo-zone position-centered">
+          <img class="resources__logo" src="./images/logo/resources-arzamas.svg">
+          <img class="resources__logo" src="./images/logo/resources-n1.svg">
+          <img class="resources__logo" src="./images/logo/resources-strelka.svg">
+          <img class="resources__logo" src="./images/logo/resources-polka.svg">
+        </div>
       </section>
     </main>
     <footer class="footer">
@@ -307,13 +330,13 @@
           </h2>
           <ul class="footer__column-links">
             <li>
-              <a class="footer__column-link" href="#">Главная</a>
+              <a class="footer__column-link link_with_opacity" href="#">Главная</a>
             </li>
             <li>
-              <a class="footer__column-link" href="#">Концепция</a>
+              <a class="footer__column-link link_with_opacity" href="#">Концепция</a>
             </li>
             <li>
-              <a class="footer__column-link" href="#">Наставники</a>
+              <a class="footer__column-link link_with_opacity" href="#">Наставники</a>
             </li>
           </ul>
         </nav>
@@ -323,17 +346,17 @@
           </h2>
           <ul class="footer__column-links">
             <li>
-              <a class="footer__column-link" href="#">
+              <a class="footer__column-link link_with_opacity" href="#">
                 <img class="footer__social-icon" src="images/facebook_color_white.svg" alt="facebook"> Facebook
               </a>
             </li>
             <li>
-              <a class="footer__column-link" href="#">
+              <a class="footer__column-link link_with_opacity" href="#">
                 <img class="footer__social-icon" src="images/vk_color_white.svg" alt="vkontakte"> Вконтакте
               </a>
             </li>
             <li>
-              <a class="footer__column-link" href="#">
+              <a class="footer__column-link link_with_opacity" href="#">
                 <img class="footer__social-icon" src="images/instagram_color_white.svg" alt="instagram"> Instagram
               </a>
             </li>
